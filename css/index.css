@@ -1,0 +1,68 @@
+body {
+    background-color: #d7cdb8;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+img {
+  max-height: 70vh;
+  border: 6px solid #444;
+  border-right-width: 7px;
+  border-bottom-width: 8px;
+}
+
+.navlinks {
+  display: flex;
+  justify-content: space-around;
+
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #444;
+  border: solid 2px black;
+  padding: 1.5vh;
+  position: sticky;
+  top: 1vh;
+}
+
+.navlinks a {
+  font-size: 14pt;
+  color: #eee;
+  text-decoration: none;
+}
+
+.homepage {
+  display: flex;
+  justify-content: space-around;
+}
+
+#background {
+  transform: scaleX(-1);
+}
+
+.bio {
+  display: flex;
+}
+
+.exhibits {
+  display: flex;
+}
+
+.exhibits div {
+  display: flex;
+  flex-direction: column;
+}
+
+.exhibits div a {
+  font-size: 14pt;
+  color: #33f;
+  text-decoration: none;
+}
+
+.exhibits div img {
+  max-width: 80%;
+  max-height: 80%;
+}
+
+.contact div img {
+  max-width: 80%;
+  max-height: 80%;
+  justify-content: right;
+}

@@ -7,6 +7,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Picasso Artwork</title>
   <link rel="icon" type="image/png" href="/images/favicon.png">
+  <link rel="stylesheet" href="/css/index.css">
 </head>
 
 <body>
@@ -21,45 +22,45 @@
   </div>
 
   <h1>Contact</h1>
-  <img src="https://media.vogue.fr/photos/5c3610accac7440fddbacbb6/master/w_1600,c_limit/picasso_6341.jpeg?lang=eng"
-    id="background" alt="">
+  <div>
+    <p> 
+      Please contact me to request a painting or project. My hours are at 3:00 AM - 3:30 AM EET Time.
+    </p>
+    <p>
+      Leave your name, number, and below along with your request so I can respond back with pricing and concerns.
+    </p>
+  </div>
+  <div>
+  <img src="https://uploads3.wikiart.org/images/pablo-picasso/self-portrait-1907.jpg!Large.jpg" 
+    alt="An abstract Picasso self-portrait.">
+  <figcaption>Picasso Abstract Self-Portrait (1907)</figcaption>
+  </div>
+  <form method="post">
+    <h2>Contact Form</h2>
+    <label for="fname">First Name:</label>
+    <input type="text" id="fname" value="">
+    <br>
 
-  <img src="https://upload.wikimedia.org/wikipedia/en/b/bc/Old_guitarist_chicago.jpg" alt="">
-  <figcaption>The Old Guitarist (1903–1904)</figcaption>
+    <label for="lname">Last Name:</label>
+    <input type="text" id="lname" value="">
+    <br>
+
+    <label for="email">Email:</label>
+    <input type="email" id="email" value="">
+    <br>
+
+    <label for = "phone"> Phone Number: </label>
+    <input type="text" id="reason" value="">
+    <br>
+
+    <label for="reason">Reason For Contact:</label>
+    <input type="tel" id="phone" name="phone" pattern="[0-9]{3}-[0-9]{2}-[0-9]{3}">
+    <br>
+    <input type="submit" value="Submit">  
+  </form>
+
 
 </body>
 
-<style>
-  body {
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    background-color: #d7cdb8;
-  }
-
-  img {
-    max-height: 70vh;
-    border: 6px solid #444;
-    border-right-width: 7px;
-    border-bottom-width: 8px;
-  }
-
-  #navlinks {
-    display: flex;
-    justify-content: space-around;
-
-    background-color: #444;
-    border: solid 2px black;
-    padding: 1.5vh;
-  }
-
-  #navlinks a {
-    font-size: 14pt;
-    color: #eee;
-    text-decoration: none;
-  }
-
-  #background {
-    transform: scaleX(-1);
-  }
-</style>
 
 </html>
