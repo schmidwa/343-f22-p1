@@ -12,13 +12,13 @@
 <body>
 
   <!-- nav links -->
-  <ul>
-    <li><a href="index.html">Home</a></li>
-    <li><a href="about.html">About</a></li>
-    <li><a href="portfolio.html">Portfolio</a></li>
-    <li><a href="exhibitions.html">Exhibitions</a></li>
-    <li><a href="contact.html">Contact</a></li>
-  </ul>
+  <div id="navlinks">
+    <a href="index.html">Home</a>
+    <a href="about.html">About</a>
+    <a href="portfolio.html">Portfolio</a>
+    <a href="exhibitions.html">Exhibitions</a>
+    <a href="contact.html">Contact</a>
+  </div>
 
   <h1>Pablo Picasso</h1>
   <img src="https://media.vogue.fr/photos/5c3610accac7440fddbacbb6/master/w_1600,c_limit/picasso_6341.jpeg?lang=eng"
@@ -31,6 +31,7 @@
 
 <style>
   body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     background-color: #d7cdb8;
   }
 
@@ -39,6 +40,21 @@
     border: 6px solid #444;
     border-right-width: 7px;
     border-bottom-width: 8px;
+  }
+
+  #navlinks {
+    display: flex;
+    justify-content: space-around;
+
+    background-color: #444;
+    border: solid 2px black;
+    padding: 1.5vh;
+  }
+
+  #navlinks a {
+    font-size: 14pt;
+    color: #eee;
+    text-decoration: none;
   }
 
   #background {
