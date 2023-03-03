@@ -22,45 +22,52 @@
   </div>
 
   <h1>Contact</h1>
-  <div>
-    <p> 
-      Please contact me to request a painting or project. My hours are at 3:00 AM - 3:30 AM EET Time.
-    </p>
-    <p>
-      Leave your name, number, and below along with your request so I can respond back with pricing and concerns.
-    </p>
+  <div class="contact">
+    <div>
+      <div>
+        <p> 
+          Please contact me to request a painting or project. My hours are at 3:00 AM - 3:30 AM CET. I live in the Graveyard at Vauvenargues Castle, Vauvenargues, France.
+        </p>
+        <p>
+          Leave your name and email and below along with your request so I can respond back with pricing and concerns.
+        </p>
+      </div>
+      <div class="contract-form-wrapper">
+        <form action="" method="" class="contact-form">
+          <h2>Contact Form</h2>
+          <div class = "contact-form">
+            <label for="fname">First Name:</label>
+            <input type="text" id="fname" value="">
+          </div>
+
+          <div class = "contact-form">
+            <label for="lname">Last Name:</label>
+            <input type="text" id="lname" value="">
+          </div>
+
+          <div class = "contact-form">
+            <label for="email">Email:</label>
+            <input type="email" id="email" value="">
+          </div>
+          <div class = "contact-form">
+            <label for="reason">Reason For Contact:</label>
+            <p></p>
+            <textarea class="contact-textarea" id="reason" name="reason" rows="4" cols="30">Enter your comments, offers, and concerns here.</textarea>
+
+          </div>
+          <div class="contact-submit">
+           <input type="submit" value="Submit">  
+          </div>
+        </form>
+      </div>
+    </div>
+
+    <div>
+      <img src="/images/self-portrait-1907.jpg" 
+        alt="An abstract Picasso self-portrait.">
+      <figcaption>Picasso Abstract Self-Portrait (1907)</figcaption>
+    </div>
   </div>
-  <div>
-  <img src="https://uploads3.wikiart.org/images/pablo-picasso/self-portrait-1907.jpg!Large.jpg" 
-    alt="An abstract Picasso self-portrait.">
-  <figcaption>Picasso Abstract Self-Portrait (1907)</figcaption>
-  </div>
-  <form method="post">
-    <h2>Contact Form</h2>
-    <label for="fname">First Name:</label>
-    <input type="text" id="fname" value="">
-    <br>
-
-    <label for="lname">Last Name:</label>
-    <input type="text" id="lname" value="">
-    <br>
-
-    <label for="email">Email:</label>
-    <input type="email" id="email" value="">
-    <br>
-
-    <label for = "phone"> Phone Number: </label>
-    <input type="text" id="reason" value="">
-    <br>
-
-    <label for="reason">Reason For Contact:</label>
-    <input type="tel" id="phone" name="phone" pattern="[0-9]{3}-[0-9]{2}-[0-9]{3}">
-    <br>
-    <input type="submit" value="Submit">  
-  </form>
-
 
 </body>
-
-
 </html>
