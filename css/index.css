@@ -44,6 +44,11 @@ img {
   padding-bottom: 4vw;
 }
 
+#old-guitarist {
+  flex-direction: column;
+  padding: 0;
+}
+
 .painting div p {
   max-width: 20vw;
   position: relative;
@@ -169,7 +174,4 @@ img {
     font-size: 14pt;
   }
 
-
-  
-  
 }
