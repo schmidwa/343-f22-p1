@@ -1,0 +1,61 @@
+
+.contact div img {
+    position: relative;
+    max-width: 90%;
+    max-height: 90%;
+    justify-content: center;
+}
+  
+.contract-form-wrapper {
+    position: absolute;
+    border-style: solid;
+    border-width: 5px;
+    width: 30em;
+    max-height: 100%;
+    background-color: lightcoral;
+    vertical-align: top;
+    text-align: left;
+    bottom: 0;
+}
+
+.contact-form {  
+    margin-left: 5px;
+    text-align: left;
+    flex-direction: column;
+    max-width: 100%;
+    margin-block: 20px;
+}
+.contact div p {
+    font-size: 16pt;
+}
+  
+.contact textarea {
+    resize: none;
+}
+label {
+    display: inline-block;
+    width: 6em;
+    position: relative;
+    font-size: 16pt;
+}
+input {
+    display: inline-block;
+    width: 6em;
+}
+
+/* mobile rules */
+@media screen and (max-width: 1240px) {
+  
+    .contact-form {
+      margin-block: 10px;
+      max-height: 90%;
+    }
+    
+    .contact div p {
+      font-size: 12pt;
+    }
+    .contract-form-wrapper {
+        position: relative;
+        width: 20em;
+    }
+}

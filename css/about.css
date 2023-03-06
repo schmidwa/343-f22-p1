@@ -1,0 +1,21 @@
+
+.bio {
+    display: flex;
+    font-size: 13pt;
+}
+  
+  .biotext {
+    padding-right: 3vw;
+}
+
+/* mobile rules */
+@media screen and (max-width: 1240px) {
+
+    .bio div img {
+      display: none;
+    }
+    .bio div figcaption {
+      display: none;
+    }
+}
+  

@@ -7,7 +7,8 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Picasso Artwork</title>
   <link rel="icon" type="image/png" href="/images/favicon.png">
-  <link rel="stylesheet" href="/css/index.css">
+  <link rel="stylesheet" href="/css/style.css">
+  <link rel="stylesheet" href="/css/contact.css">
 </head>
 
 <body>
@@ -33,29 +34,30 @@
         </p>
       </div>
       <div class="contract-form-wrapper">
-        <form action="" method="" class="contact-form">
+        <form action="/contact.html" method="get" class="contact-form">
           <h2>Contact Form</h2>
           <div class = "contact-form">
-            <label for="fname">First Name:</label>
-            <input type="text" id="fname" value="">
+            <label class="labels" for="fname">First Name:
+              <input class="inputs" type="text" id="fname" value="">
+            </label>
           </div>
 
           <div class = "contact-form">
-            <label for="lname">Last Name:</label>
-            <input type="text" id="lname" value="">
+            <label class="labels" for="lname">
+              Last Name:
+              <input class="inputs" type="text" id="lname" value="">
+            </label>
           </div>
 
           <div class = "contact-form">
-            <label for="email">Email:</label>
-            <input type="email" id="email" value="">
+            <label class="labels" for="email">Email:
+              <input class="inputs" type="email" id="email" value="">
+            </label>
           </div>
           <div class = "contact-form">
-            <label for="reason">Reason For Contact:</label>
-            <p></p>
-            <!-- <textarea class="contact-textarea" id="reason" name="reason" rows="4" cols="30">Enter your comments, offers, and concerns here.</textarea> -->
-            <textarea class="contact-textarea" id="reason" name="reason" rows="4" cols="30"></textarea>
-
-
+            <label class="labels" for="reason">Reason For Contact:
+              <textarea class="inputs" id="reason" name="reason" rows="4" cols="30"></textarea>
+            </label>
           </div>
           <div class="contact-submit">
            <input type="submit" value="Submit">  
@@ -65,9 +67,11 @@
     </div>
 
     <div>
-      <img src="/images/self-portrait-1907.jpg" 
-        alt="An abstract Picasso self-portrait.">
-      <figcaption>Picasso Abstract Self-Portrait (1907)</figcaption>
+      <figure>
+        <img src="/images/selfportrait1907.jpg" 
+          alt="An abstract Picasso self-portrait.">
+        <figcaption>Picasso Abstract Self-Portrait (1907)</figcaption>
+      </figure>
     </div>
   </div>
 
