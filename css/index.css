@@ -10,8 +10,8 @@
     margin-top: 0;
 }
 
-/* flip Picasso portrait to work better in the page */
-#picasso-portrait {
+/* flip Picasso portrait to look better in the page */
+#picasso-portrait figure img {
     transform: scaleX(-1);
 }
 
