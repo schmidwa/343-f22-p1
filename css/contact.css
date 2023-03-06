@@ -32,15 +32,21 @@
 .contact textarea {
     resize: none;
 }
+
 label {
     display: inline-block;
     width: 6em;
     position: relative;
     font-size: 16pt;
 }
+
 input {
     display: inline-block;
     width: 6em;
+}
+
+h1 {
+    margin-bottom: 0;
 }
 
 /* mobile rules */
